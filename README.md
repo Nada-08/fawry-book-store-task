@@ -39,6 +39,21 @@ This project is a Java-based design for an online bookstore system, developed as
 
 ---
 
+## Test Class
+
+Below is the test class that demonstrates adding, removing, and buying books:
+
+![Test Class Screenshot](./screenshots/test-class.png)
+
+---
+
+## Sample Output
+
+Console output after running the test class:
+
+![Sample Output Screenshot](./screenshots/sample-output.png)
+
+
 ## How to Run
 1. Clone the repo:
    ```bash
