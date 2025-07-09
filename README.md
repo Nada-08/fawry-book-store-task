@@ -45,7 +45,6 @@ Below is the test class that demonstrates adding, removing, and buying books:
 
 ![Test Class Screenshot](./screenshots/test-class.png)
 
-
 ---
 
 ## Sample Output
