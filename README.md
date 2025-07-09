@@ -43,8 +43,7 @@ This project is a Java-based design for an online bookstore system, developed as
 
 Below is the test class that demonstrates adding, removing, and buying books:
 
-![Test Class Screenshot](./screenshots/test-class.png)
-
+![Test Class Screenshot](./screenshots/test-class.png?v=2)
 
 ---
 
