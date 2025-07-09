@@ -1,4 +1,4 @@
-public class QuantumBookstoreTest {
+public class BookstoreTest {
     public static void main(String[] args) {
         BookInventory inventory = new BookInventory();
 
@@ -17,13 +17,13 @@ public class QuantumBookstoreTest {
 
         System.out.println("--- Removing outdated books (20 years) ---");
         for (Book book : inventory.removeOutdatedBooks(20)) {
-            System.out.println("Quantum Book Store: Removed - " + book.getTitle());
+            System.out.println("Removed - " + book.getTitle());
         }
 
         System.out.println("\n--- Buying available books ---");
         try {
             double total = inventory.buyBook("ID01", 2, "buyer@gamail.com", "Cairo, Egypt");
-            System.out.println("Quantum Book Store: Total paid for Paperbook: " + total);
+            System.out.println("Total paid for Paperbook: " + total);
 
         } catch (Exception error) {
             System.out.println(error.getMessage());
@@ -31,7 +31,7 @@ public class QuantumBookstoreTest {
 
         try {
             double total = inventory.buyBook("ID02", 1, "reader@example.com", "N/A");
-            System.out.println("Quantum Book Store: Total paid for EBook: " + total);
+            System.out.println("Total paid for EBook: " + total);
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
